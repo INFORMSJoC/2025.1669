@@ -1,0 +1,20 @@
+\begin{table}[H]
+	\centering
+	\caption{Parameter settings in the computational experiments.}
+	\SupplementTableSetup
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}Xl@{}}
+		\toprule
+		\textbf{Notation} & \textbf{Description} & \textbf{Value} \\
+		\midrule
+		$c_f, \forall f\in F$ & Flight cancellation cost (\$) & $ 1 \times 10^6$  \\
+		$c_\phi, \forall \phi \in \Phi$ & End position violation cost (\$) & $ 2.5 \times 10^4$  \\
+		$c^{\Rm d}$ & Unit delay cost (\$/min) & $100$\\
+		$c^{\Rm s}$ & Unit swap cost (\$/flight) & $ 1.2 \times 10^4 $  \\
+		$c^{\Rm f}$ & Unit fuel cost (\$/kg) & $ 1.0 $  \\
+		$c_1, c_2, c_3, c_4$ & Fuel consumption coefficients & c.f. \cite{eurocontrol2012bada} \\
+		$D_{\max}$ & Maximum allowable delay for a flight & 6 hours \\
+		$M_k, \forall k \in K$ & The maximum number of copies generated per iteration & 2 \\
+		\bottomrule
+	\end{tabularx}
+	\label{tab:parameter_settings}%
+\end{table}
