@@ -1,0 +1,286 @@
+Run time(sec):            601
+IP gap:14.2
+======================= COST =======================
+======================= COST =======================
+Total:              2.003e+09
+Cancel:             1.992e+09
+Delay:                   5200
+Swaps:              1.956e+06
+PosViol:              4.8e+06
+CSC:                3.917e+06
+
+===================== DISRUPTION ===================
+# Cancelled:             1200
+# Delayed:                  4
+# Swaps:                  163
+# CSCs:                   160
+Ttl delay(min):	           52
+Avg delay(min):	           13
+Min delay(min):	            1
+Max delay(min):	           25
+
+================= AIRPORT CAPACITY =================
+SEA 2025-Jul-07 17:00:00 2025-Jul-07 21:00:00 1 0(1)
+SEA 2025-Jul-07 17:00:00 2025-Jul-07 21:00:00 2 0(0)
+SEA 2025-Jul-07 21:00:00 2025-Jul-07 22:00:00 1 5(0)
+SEA 2025-Jul-07 21:00:00 2025-Jul-07 22:00:00 2 5(2)
+SEA 2025-Jul-07 22:00:00 2025-Jul-07 23:00:00 1 2(2)
+SEA 2025-Jul-07 22:00:00 2025-Jul-07 23:00:00 2 3(1)
+SEA 2025-Jul-07 23:00:00 2025-Jul-08 00:00:00 1 4(1)
+SEA 2025-Jul-08 00:00:00 2025-Jul-08 01:00:00 1 4(4)
+SEA 2025-Jul-07 23:00:00 2025-Jul-08 00:00:00 2 2(0)
+SEA 2025-Jul-08 00:00:00 2025-Jul-08 01:00:00 2 2(1)
+PDX 2025-Jul-07 21:00:00 2025-Jul-07 22:00:00 1 6(0)
+PDX 2025-Jul-07 22:00:00 2025-Jul-07 23:00:00 1 6(0)
+PDX 2025-Jul-07 21:00:00 2025-Jul-07 22:00:00 2 2(0)
+PDX 2025-Jul-07 22:00:00 2025-Jul-07 23:00:00 2 2(0)
+PDX 2025-Jul-07 23:00:00 2025-Jul-08 00:00:00 1 1(0)
+PDX 2025-Jul-07 23:00:00 2025-Jul-08 00:00:00 2 3(1)
+RNO 2025-Jul-07 21:00:00 2025-Jul-07 22:00:00 1 1(0)
+RNO 2025-Jul-07 22:00:00 2025-Jul-07 23:00:00 1 1(0)
+RNO 2025-Jul-07 21:00:00 2025-Jul-07 22:00:00 2 1(0)
+RNO 2025-Jul-07 22:00:00 2025-Jul-07 23:00:00 2 1(0)
+RNO 2025-Jul-07 23:00:00 2025-Jul-08 00:00:00 1 2(0)
+RNO 2025-Jul-07 23:00:00 2025-Jul-08 00:00:00 2 0(0)
+STS 2025-Jul-07 21:00:00 2025-Jul-07 22:00:00 1 1(0)
+STS 2025-Jul-07 22:00:00 2025-Jul-07 23:00:00 1 1(0)
+STS 2025-Jul-07 23:00:00 2025-Jul-08 00:00:00 1 1(0)
+STS 2025-Jul-07 21:00:00 2025-Jul-08 00:00:00 2 0(0)
+STS 2025-Jul-08 00:00:00 2025-Jul-08 01:00:00 1 2(0)
+STS 2025-Jul-08 01:00:00 2025-Jul-08 02:00:00 1 2(0)
+STS 2025-Jul-08 02:00:00 2025-Jul-08 03:00:00 1 2(0)
+STS 2025-Jul-08 03:00:00 2025-Jul-08 04:00:00 1 2(0)
+STS 2025-Jul-08 00:00:00 2025-Jul-08 01:00:00 2 2(0)
+STS 2025-Jul-08 01:00:00 2025-Jul-08 02:00:00 2 2(0)
+STS 2025-Jul-08 02:00:00 2025-Jul-08 03:00:00 2 2(0)
+STS 2025-Jul-08 03:00:00 2025-Jul-08 04:00:00 2 2(0)
+STS 2025-Jul-08 04:00:00 2025-Jul-08 05:00:00 1 0(0)
+STS 2025-Jul-08 04:00:00 2025-Jul-08 05:00:00 2 1(0)
+
+================= AIRCRAFT LOCATION ================
+Aircraft     PlannedEnd      ActualEnd
+N214AK            AUS            RDM
+N224AK            ANC            PAE
+N236AK            IAD            SFO
+N237AK            SEA            SFO
+N238AK            IAD            SAN
+N247AK            SEA            SEA
+N248AK            SEA            BOS
+N251AK            EUG            SEA
+N253AK            IND            SFO
+N260AK            PDX            AUS
+N264AK            OMA            ONT
+N265AK            SFO            AUS
+N267AK            PDX            SEA
+N268AK            PDX            SFO
+N270AK            SEA            ORD
+N272AK            ORD            SEA
+N273AK            JNU            PDX
+N274AK            MKE            ORD
+N275AK            LAS            BNA
+N277AK            CMH            LAX
+N280AK            PDX            LAS
+N281AK            ABQ            GEG
+N282AK            JFK            SIT
+N283AK            PDX            SEA
+N284AK            SJC            SEA
+N285AK            SMF            DFW
+N287AK            RDM            SEA
+N288AK            ORD            LAS
+N290AK            BNA            SEA
+N291BT            SEA            LAX
+N292AK            LAS            ANC
+N293AK            ANC            SFO
+N294AK            LAX            GEG
+N296AK            PHX            SAN
+N297AK            SFO            FAI
+N298AK            LAX            BUR
+N307AS            SEA            SEA
+N309AS            JNU            SFO
+N318AS            SEA            GEG
+N402AS            LAS            ANC
+N403AS            SAN            ATL
+N408AS            ANC            JFK
+N409AS            SFO            GEG
+N413AS            SEA            SEA
+N419AS            BOS            DTW
+N423AS            LAX            SEA
+N431AS            MCO            SFO
+N433AS            CLE            SEA
+N434AS            ANC            PDX
+N435AS            GEG            BNA
+N440AS            LAX            HNL
+N442AS            SEA            JNU
+N448AS            SEA            IND
+N453AS            JNU            STL
+N457AS            DFW            PHX
+N459AS            SFO            PHX
+N462AS            SFO            JNU
+N464AS            ANC            MSY
+N467AS            MCI            SAN
+N469AS            GEG            ATL
+N471AS            SEA            SFO
+N472AS            SJC            JFK
+N474AS            SEA            PHX
+N477AS            TPA            ANC
+N478AS            ANC            SEA
+N481AS            PDX            SFO
+N483AS            PDX            FAI
+N486AS            SEA            SMF
+N487AS            BNA            AUS
+N491AS            PDX            SMF
+N492AS            PDX            SEA
+N493AS            PHL            SLC
+N494AS            ANC            PHL
+N495AS            HNL            GEG
+N506AS            BOS            SEA
+N508AS            DCA            LIH
+N512AS            SNA            LAX
+N513AS            SEA            LIH
+N514AS            SFO            SNA
+N516AS            LAX            SEA
+N517AS            SAN            SAN
+N518AS            LAX            SJC
+N519AS            SNA            SNA
+N520AS            ANC            SFO
+N523AS            SEA            SAN
+N525AS            ANC            SNA
+N526AS            SEA            SNA
+N527AS            BWI            ANC
+N529AS            SIT            KOA
+N530AS            SJC            DCA
+N531AS            SEA            SEA
+N532AS            PDX            LIH
+N535AS            SAN            KOA
+N536AS            SEA            SFO
+N537AS            DCA            ANC
+N538AS            SEA            SAN
+N546AS            SEA            OTZ
+N548AS            DEN            DCA
+N549AS            ADQ            ADQ
+N551AS            SEA            ORD
+N552AS            SNA            SEA
+N553AS            SEA            SNA
+N556AS            SMF            ANC
+N557AS            SAN            DFW
+N560AS            SEA            DEN
+N562AS            MSP            SEA
+N564AS            ANC            SNA
+N565AS            SEA            SEA
+N568AS            LAX            MCO
+N569AS            SAN            SEA
+N570AS            SAN            STS
+N577AS            SEA            DCA
+N579AS            KOA            ANC
+N581AS            BOS            PDX
+N586AS            PDX            ANC
+N587AS            PHX            PDX
+N589AS            JFK            KOA
+N590AS            DCA            KOA
+N592AS            ORD            ANC
+N593AS            LAS            LAS
+N594AS            OAK            PDX
+N596AS            SEA            DCA
+N597AS            OGG            DCA
+N607AS            ANC            BUR
+N609AS            SIT            FAT
+N611AS            SEA            ANC
+N612AS            ANC            JNU
+N613AS            RNO            KTN
+N615AS            JNU            KTN
+N618AS            ANC            ANC
+N619AS            ANC            SEA
+N622AS            SEA            GST
+N703AL            SEA            SAN
+N705AL            LAX            DEN
+N706AL            EWR            ANC
+N707AL            EWR            SAN
+N708AL            ORD            JFK
+N709AL            TPA            SEA
+N710AL            MSP            ANC
+N712AL            LAX            ANC
+N713AL            PDX            SEA
+N716AL            MCO            SFO
+N719AL            SEA            IAD
+N720AL            BOS            STL
+N722AL            SEA            JNU
+N723AL            DFW            PDX
+N724AL            AUS            ORD
+N725AL            SFO            SFO
+N729AL            LAX            BUR
+N731AL            MCO            SEA
+N732AL            SEA            SEA
+N733AL            PDX            EWR
+N734AL            JFK            MCO
+N738AL            SEA            SEA
+N801AK            ANC            ANC
+N803AK            JFK            JFK
+N804AK            SEA            KOA
+N805AK            LAX            SEA
+N806AK            LAX            LAS
+N809AK            SEA            DFW
+N812AK            SFO            SNA
+N813AK            SEA            SEA
+N903AK            PDX            PDX
+N912AK            SAN            SEA
+N913AK            GEG            SEA
+N915AK            SEA            SEA
+N917AK            ONT            SEA
+N918AK            RDU            LAS
+N919AK            PHX            STL
+N920AK            ATL            LAS
+N921AK            AUS            EWR
+N924AK            EWR            SEA
+N926AK            MSY            MSP
+N928AK            DEN            LAX
+N929AK            SEA            ORD
+N931AK            PDX            SFO
+N932AK            SFO            PDX
+N933AK            ORD            SEA
+N934AK            ANC            PDX
+N935AK            SAN            MSP
+N936AK            SEA            PHX
+N938AK            LAX            CVG
+N941AK            IAH            SEA
+N942AK            ORD            GEG
+N947AK            FAI            JFK
+N948AK            LAX            PDX
+N949AK            FAI            MIA
+N952AK            SEA            SEA
+N953AK            CVG            ORD
+N954AK            PDX            SEA
+N955AK            SFO            JNU
+N956AK            PIT            TPA
+N958AK            SAT            BNA
+N960AK            BOS            SFO
+N961AK            PHX            PDX
+N962AK            SFO            SEA
+N963AK            LAX            SEA
+N964AK            IAH            GEG
+N966AK            SFO            SEA
+N967AK            LAX            SEA
+N968AK            JFK            SEA
+N969AK            PDX            SAN
+N972AK            SFO            AUS
+N973AK            ONT            SEA
+N974AK            BOI            PDX
+N975AK            LAS            BNA
+N976AK            STL            SEA
+N977AK            SEA            SAT
+N978AK            IAD            ATL
+N982AK            SEA            JFK
+N983AK            ATL            FAI
+N984AK            FAI            OGG
+N985AK            DEN            SEA
+N990AK            LAX            LAX
+N407AS            SEA            SEA
+N428AS            LAX            LAX
+N468AS            DTW            SAT
+N479AS            SEA            LAS
+N563AS            GEG            ANC
+N566AS            SFO            SEA
+N588AS            ANC            SEA
+N614AS            ANC            RNO
+N946AK            BUR            PDX
+N971AK            BUR            IAD
+N979AK            SAN            SEA

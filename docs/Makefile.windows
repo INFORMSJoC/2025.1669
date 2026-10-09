@@ -1,0 +1,24 @@
+# Copyright (c) 2026 Zhouchun Huang.
+# SPDX-License-Identifier: MIT
+# Run in an x64 Native Tools Command Prompt for Visual Studio.
+!IFNDEF GUROBI_HOME
+GUROBI_HOME = D:\Tools\gurobi1301\win64
+!ENDIF
+!IFNDEF BOOST_ROOT
+BOOST_ROOT = D:\Tools\boost_1_88_0
+!ENDIF
+!IFNDEF JSON_ROOT
+JSON_ROOT = D:\Tools\json\single_include
+!ENDIF
+!IFNDEF GUROBI_LIB
+GUROBI_LIB = gurobi130.lib
+!ENDIF
+SOURCES = src/engine.cpp src/main.cpp src/air/Air.cpp src/algorithms/CCG.cpp src/algorithms/ColGen.cpp src/algorithms/CopyEvalCrs.cpp src/algorithms/CopyEvalStd.cpp src/algorithms/CopyGen.cpp src/models/PathModel.cpp src/network/timespace.cpp src/utility/config.cpp src/utility/datamngr.cpp src/utility/solmngr.cpp
+all:
+	@if not exist build mkdir build
+	@if not exist bin mkdir bin
+	cl /nologo /EHsc /std:c++20 /O2 /MD /openmp /DBOOST_ALL_NO_LIB /I src /I src/utility /I src/air /I src/network /I src/models /I src/algorithms /I "$(GUROBI_HOME)/include" /I "$(BOOST_ROOT)" /I "$(JSON_ROOT)" $(SOURCES) /Fo:build/ /Fe:bin/arp.exe /link /LIBPATH:"$(GUROBI_HOME)/lib" gurobi_c++md2017.lib $(GUROBI_LIB)
+
+test: all
+	cl /nologo /EHsc /std:c++20 /O2 /MD /openmp /DBOOST_ALL_NO_LIB /I src /I src/utility /I src/air /I src/network /I src/models /I src/algorithms /I "$(GUROBI_HOME)/include" /I "$(BOOST_ROOT)" tests/performance_tests.cpp build/engine.obj build/Air.obj build/CCG.obj build/ColGen.obj build/CopyEvalCrs.obj build/CopyEvalStd.obj build/CopyGen.obj build/PathModel.obj build/timespace.obj build/config.obj build/datamngr.obj build/solmngr.obj /Fo:build/performance_tests.obj /Fe:bin/performance_tests.exe /link /LIBPATH:"$(GUROBI_HOME)/lib" gurobi_c++md2017.lib $(GUROBI_LIB)
+	set "PATH=$(GUROBI_HOME)\bin;%PATH%" && bin\performance_tests.exe
