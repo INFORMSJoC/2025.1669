@@ -1,9 +1,13 @@
+[![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
+
 # Solving aircraft recovery with copy and column generation
 
-Research software accompanying the paper by Zhouchun Huang, Xinjia Jiang,
-Xiaodong Luo, Qipeng P. Zheng, and Panos M. Pardalos, submitted to the
-INFORMS Journal on Computing (2025.1669). Software is distributed under the
-[MIT License](LICENSE). See [AUTHORS](AUTHORS) and [data provenance](data/README.md).
+This archive is distributed in association with the [INFORMS Journal on
+Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
+
+The software and data in this repository are a snapshot of the software and data
+that were used in the research reported on the paper
+[Solving aircraft recovery with copy and column generation](https://doi.org/10.1287/ijoc.2025.1669) by Zhouchun Huang, Xinjia Jiang, Xiaodong Luo, Qipeng P. Zheng, Panos M. Pardalos.
 
 ## Cite
 
@@ -128,4 +132,4 @@ in `results/copy_generation/`, `results/sensitivity/max_copies/` and
 `results/sensitivity/simultaneous/`. Both scripts accept `--output-dir PATH`
 to write generated artifacts elsewhere.
 The [results index](results/README.md) collects manuscript result tables,
-figures and output files by experiment. Table summaries identify manuscript-reported values.
+figures and output files by experiment. 
